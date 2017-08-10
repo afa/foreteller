@@ -1,1 +1,5 @@
 foreteller
+
+'''ruby
+ForecastIO.forecast(55.753573, 37.597734, params: {time: Date.yesterday.to_time.to_i, units: 'si'})
+'''

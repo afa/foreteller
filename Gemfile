@@ -1,11 +1,13 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.4'
+gem 'rails', '4.1.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+
+gem 'forecast_io'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -13,7 +15,7 @@ gem 'pg'
 # Deploy with Capistrano
  gem 'capistrano'
  gem "haml-rails"
- gem "haml"
+ # gem "haml"
  gem "jquery-rails"
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
@@ -30,11 +32,11 @@ gem 'pg'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-  gem "rspec"
+  # gem "rspec"
   gem "factory_girl"
   gem "database_cleaner"
-  gem "cucumber-rails", ">=0.3.2"
-  gem "cucumber"
+  # gem "cucumber-rails", ">=0.3.2"
+  # gem "cucumber"
   gem "rspec-rails", ">=2.0.0"
-  gem 'webrat', ">=0.7.2.beta.1"
+  # gem 'webrat', ">=0.7.2.beta.1"
 end
